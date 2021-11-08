@@ -1,0 +1,658 @@
+/*Start Framework*/
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    
+}
+body{
+
+    font-family: 'Open Sans', sans-serif
+
+
+    
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.table{
+    height: 100%;
+    display: table
+    
+}
+
+.table-row{
+    display: table-row;
+}
+.text-center{
+    text-align: center;
+}
+.upper{
+    text-transform: uppercase;
+}
+.main-color{
+    color: #f7600e 
+    
+}
+.main-background-color{
+    background-color:#f7600e;   
+}
+
+
+.over-lay{
+    
+    background:rgb(49,55,61,0.9);
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-input-placeholder{
+    font-size: 12px;
+ 
+}
+
+
+:-ms-input-placeholder{
+    font-size: 12px
+}
+:-moz-input-placeholder{
+    font-size: 12px
+}
+
+
+
+.hidden{
+    display: none
+    
+}
+/*End Framework */
+
+/*Start Header */
+.header {
+    background: url(../images/header_stock.png);
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    color:#fff; 
+    
+    
+}
+
+
+
+.header .navbar {
+    padding: 20px 0;
+    overflow: hidden;
+   /* position: absolute;*/
+    left: 0;
+    top: 0;
+    width: 100%
+    
+
+    
+}
+
+.header .navbar .logo{
+    font-size: 24px
+}
+
+.header .navbar .links {
+    float: right
+}
+
+.header .navbar i{
+    float: right;
+    margin-left: 5px
+}
+
+
+.header .intro h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0
+    
+}
+.header .intro p{
+    line-height:1.8;
+    color: #E2E2E2;
+    margin: 5px 0 50px;
+    font-size:18px;
+    
+}
+
+.header .buttons button{
+    padding: 10px 0;
+    width: 180px;
+    margin: 0 8px;
+    border: 2px solid #909090;
+    border-radius:10px;
+    font-size: 14px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+.header .buttons button:hover{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #fff
+    
+    
+}
+
+.header .arrow{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    
+}
+.header .arrow i{
+    padding: 0px;
+    border: 1px solid #f0d9d988;
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+/*End Header */
+
+
+/*Start Features */
+ .features {
+     padding:40px 0 ;
+     overflow: hidden;
+     padding: 80px 80px;
+     
+}
+
+.features .box {
+    width: 22%;
+    float: left;
+    margin-right:4%;
+    
+}
+.features .box:last-child{
+    margin-right: 0
+}
+
+
+.features .box i{
+    border: 1px solid #f4eded;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    color: #f7600e;
+    -webkit-transition:all 5s. ease-in-out;
+    -o-transition:all 5s. ease-in-out;
+    -moz-transition:all 5s. ease-in-out;
+    transition:all 5s. ease-in-out
+
+
+
+    
+}
+
+.features .box i:hover{
+    
+    border: 1px solid #f7600e;
+    background-color: #f7600e;
+    color: #fff;
+}
+.features .box h3{
+    color: #555;
+    font-weight: normal;
+    font-size:20px;
+    text-transform:uppercase
+    
+    
+}
+
+.features .box p{
+    color: #b3b3b3;
+    line-height: 2;
+    font-size:17px
+    
+}
+
+
+/*End Features */
+
+
+/*End Features */
+.subscribe {
+    background: url(../images/subscribe.png);
+    background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    
+    
+    
+    
+}
+
+.subscribe form {
+    
+    padding: 100px 0;
+    text-align: center;
+    width: 700px;
+    margin: auto
+}
+
+.subscribe form input[type="email"]{
+    line-height: 32px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    font-size:13px;
+    
+}
+
+.subscribe form button{
+    width: 220px;
+    background-color: #f7600e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 0;
+    margin-left: 25px;
+    
+}
+
+/*End Features */
+
+
+/*Start Our-Work*/
+
+.our-work {
+    padding:60px 80px
+    
+}
+
+.our-work .box{
+    margin-bottom: 80px;
+    
+}
+
+.our-work .box p{
+    color: #b3b3b3;
+    line-height:2;
+    font-size:15px
+    
+}
+
+
+.our-work .items-box{
+    overflow: hidden;
+    margin-bottom: 10px
+}
+.our-work .items-box .item{
+    width: 32%;
+    float: left;
+    overflow: hidden;
+    margin-left: 1.3333%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    height: 403px;
+}
+
+
+
+.our-work .show-more button{
+    background-color: transparent;
+    border: 1px solid #cbc5c5;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    color: #aaa9a9;
+    padding: 10px;
+    -webkit-transition:all 5s. ease-in-out;
+    -o-transition:all 5s. ease-in-out;
+    -moz-transition:all 5s. ease-in-out;
+    transition:all 5s. ease-in-out;
+    
+}
+
+.our-work .show-more button:hover{
+    background-color:#f7600e;
+    color: #fff;
+}
+
+.our-work .items-box .item{
+    position: relative
+}
+.our-work .items-box .item .over{
+    position: absolute;  
+    background-color: rgba(247, 96, 14, .9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color:#FFF;
+    display: none
+    
+}
+
+.our-work .items-box .item .over h3{
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 25px;
+    
+}
+
+.our-work .items-box .item .over p{
+    line-height: 2;
+    margin-top: 26px;
+    
+}
+.our-work .items-box .item .over button {
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    color: #fff;
+    width: 200px;
+     -webkit-transition:all 5s. ease-in-out;
+    -o-transition:all 5s. ease-in-out;
+    -moz-transition:all 5s. ease-in-out;
+    transition:all 5s. ease-in-out;
+    
+    
+}
+
+.our-work .items-box .item .over button:hover{
+    background-color: #fff;
+    color: #f7600e;
+}
+
+
+.our-work .items-box .item:hover .over{
+    display: block
+}
+
+
+/*End Our-Work*/
+
+/*Start Testmonials */
+
+.testmo {
+    background: url(../images/testimonials.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+.testmo .container {
+       position: relative;
+
+    
+}
+.testmo .client{
+    padding: 50px 0;
+    color: #fff;
+    font-size: 20px
+}
+
+
+.testmo .client img{
+    border-radius: 50%
+    
+}
+.testmo .client p{
+    line-height: 2;
+    font-style: italic
+}
+
+
+.testmo .fa-chevron-right,
+.testmo .fa-chevron-left{
+    position: absolute;
+    top: 50%;
+    color: #999;
+    cursor: pointer;
+    
+
+}
+
+.testmo .fa-chevron-right{
+    right: 0   
+}
+
+
+.testmo .fa-chevron-left
+{
+    left: 0;
+}
+.testmo .fa-chevron-right:hover,
+.testmo .fa-chevron-left:hover{
+ color: #f7600e;}
+
+/*End Testmonials */
+
+
+/*Start Our-team */
+
+.our-team{
+    padding: 50px 0
+    
+}
+
+
+.our-team h2{
+    font-size: 35px
+}
+
+
+.our-team p.main{
+    line-height: 2;
+    margin-bottom: 30px;
+    
+}
+
+.our-team .the-team{
+    overflow: hidden
+    
+}
+.our-team .the-team .person {
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    color:  #888
+ 
+    
+}
+
+.our-team .the-team .person img {
+    
+    height: 292px;
+    width: 267px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    
+}
+.our-team .the-team .person:hover img
+{
+    filter: none;
+    filter: grayscale(0)
+}
+
+
+.our-team .the-team .person:hover h3 ,
+.our-team .the-team .person:hover p{
+    color: #666363
+    
+}
+.our-team .the-team .social-icons  i{
+    border: 1px solid #888;
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 50%;
+    background-color:#9da1a5;
+    color: #fff;
+    
+}
+
+.our-team .the-team .person:hover .social-icons .fa-twitter{
+    background-color:  #3b5998
+    
+}
+.our-team .the-team .person:hover .social-icons .fa-google-plus{
+    background-color:  #55acee
+    
+}
+.our-team .the-team .person:hover .social-icons .fa-facebook{
+    background-color: #dc4e41
+    
+}
+.our-team .the-team .person p{
+font-size:15px
+}
+
+/*End Our-team */
+
+/*Start Contat Form*/
+
+.contact {
+    background: url(../images/city.png);
+    background-size:cover
+     -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    
+}
+.contact .over-lay{
+    
+    padding: 50px 0;
+    color: #fff;
+    
+}
+
+.contact h2{
+    font-size: 35px
+    
+}
+
+.contact form {
+    width: 700px;
+    margin:50px auto;
+    overflow: hidden;
+    
+    
+}
+
+.contact form input[type="text"]
+{
+    float: left
+}
+
+.contact form input[type="email"]{
+    float: right
+}
+.contact form input[type="text"],
+.contact form input[type="email"]
+{
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #565555;
+    border-radius: 10px;
+    background-color: transparent
+
+       
+}
+
+.contact form textarea{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    height: 140px;
+    border: 1px solid #565555;
+    border-radius: 10px;
+    background-color: transparent
+
+    
+}
+
+
+.contact form .info{
+    overflow: hidden;
+    margin-top: 20px;
+    
+}
+.contact form .info button {
+    float: left;
+    width: 220px;
+    background-color: #f7600e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 0;
+    
+}
+
+.contact form .info .form-icons{
+    float: right;
+    
+}
+.contact form .info .form-icons i{
+    border: 1px solid #888;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color:#9da1a5;
+    color: #fff;
+}
+
+.contact form .info .form-icons  .fa-facebook{
+    background-color:  #3b5998
+    
+}
+.contact form .info .form-icons .fa-twitter{
+    background-color:    #55acee
+    
+}
+.contact form .info .form-icons .fa-google-plus{
+    background-color:  #dc4e41
+    
+}
+
+/*End Contat Form*/
+
+/*Start Footer */
+
+/*End Footer */
+
+
+.footer {
+    padding-top:30px;
+    padding-bottom: 60px;
+    background-color: #3b434c;
+    color: #fff
+}
+
+.footer span.copyright{
+    float: left
+    
+}
+.footer span.design{
+    float: right
+    
+}
